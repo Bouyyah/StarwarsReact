@@ -1,38 +1,65 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-center{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 15%;
+  width: 100%;
+  padding-top: .2rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: #fddb3a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link{
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: .75rem;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.link:hover {
+  color: #fddb3a;
+}
+
+
+.home {
+  background: url(http://wallpapercave.com/wp/pEeUsp1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+  height: 100vh;
+  width: 100%; 
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.swimage{
+  margin-top: -5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-title{
+  color: #f6f4e6;
 }
