@@ -56,7 +56,7 @@ function Vehicles() {
         Star Wars vehicles:
       </Typography>
       
-    <Paper sx={{ width: "100%", overflow: "hidden", }}>
+    <Paper sx={{ width: "95%", overflow: "hidden", margin:'auto' }}>
       <TableContainer >
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
