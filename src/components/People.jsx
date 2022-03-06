@@ -56,7 +56,7 @@ function People() {
           columns={{ xs: 4, sm: 8, md: 12 }}
         >
           {people.results.map((info, i) => (
-            <Grid item xs={2} sm={4} md={4} key={i}>
+            <Grid item xs={4} sm={4} md={4} key={i}>
               <Accordion
                 expanded={expanded === `panel${i}`}
                 onChange={handleChange(`panel${i}`)}

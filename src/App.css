@@ -41,6 +41,32 @@ body {
   
 }
 
+@media screen and (max-width: 480px) {
+  
+  .navbar{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    width: 100%;
+    justify-self: center;
+  }
+  .link{   
+    font-size: .8em;   
+    font-weight: 400;  
+  }
+
+  .swimage{
+    width: 70%;
+    margin-top: 0;
+  }
+
+  .home-title{
+    font-size: 13px;
+    font-weight: 200;
+  }
+}
+
 .link:hover {
   color: #fddb3a;
 }

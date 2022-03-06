@@ -50,8 +50,8 @@ function Planets() {
           columns={{ xs: 4, sm: 8, md: 12 }}
         >
           {planet.results.map((info, i) => (
-            <Grid item xs={2} sm={4} md={4} key={i}>
-              <Card sx={{ minWidth: 275, height:370 }}>
+            <Grid item xs={4} sm={4} md={4} key={i}>
+              <Card sx={{  minHeight:370 }}>
                 <CardContent>
                 <Typography
                     sx={{
@@ -70,28 +70,28 @@ function Planets() {
                     {info.name}
                   </Typography>
                   
-                <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                     - Rotation period: <i><b>{info.rotation_period}</b></i>
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                     - Orbital period: <i><b>{info.orbital_period}</b></i>
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                     - Diameter: <i><b>{info.diameter}</b></i>
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                     - Climate: <i><b>{info.climate}</b></i>
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                     - Gravity: <i><b>{info.gravity}</b></i>
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                     - Terrain: <i><b>{info.terrain}</b></i>
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                     - Surface_water: <i><b>{info.surface_water}</b></i>
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                     - Population: <i><b>{info.population}</b></i>
                   </Typography>
                 </CardContent>

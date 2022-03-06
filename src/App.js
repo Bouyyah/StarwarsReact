@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 
 import { Navbar, Homepage, People, Planets, Vehicles} from './components';
 import './App.css';
@@ -7,9 +7,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="navbar">
-        <Navbar />
-      </div>
+      
+      <Navbar />
+      
 
       <div className="main"> 
         
