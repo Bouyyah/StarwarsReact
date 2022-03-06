@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 body {
-  background: #272727;
+  background: url(http://wallpapercave.com/wp/pEeUsp1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+   -webkit-background-size: auto;
+   -moz-background-size: auto;
+   -o-background-size: auto;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -41,13 +47,7 @@ body {
 
 
 .home {
-  background: url(http://wallpapercave.com/wp/pEeUsp1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
+  
   height: 100vh;
   width: 100%; 
   display: flex;
@@ -62,4 +62,22 @@ body {
 
 .home-title{
   color: #f6f4e6;
+}
+
+.people{
+  height: 100vh;
+  position: relative;
+}
+
+.pagination{
+ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.MuiButtonBase-root{
+  color: #fddb3a!important;
 }
