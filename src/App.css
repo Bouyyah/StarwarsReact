@@ -3,7 +3,7 @@
 body {
   background: url(http://wallpapercave.com/wp/pEeUsp1.jpg);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: auto;
    -webkit-background-size: auto;
    -moz-background-size: auto;

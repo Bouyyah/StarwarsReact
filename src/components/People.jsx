@@ -47,8 +47,7 @@ function People() {
           marginTop: 4,
         }}
       >
-        {" "}
-        Star Wars character details:{" "}
+        Star Wars characters:
       </Typography>
       <Box sx={{ flexGrow: 1, padding: 5 }}>
         <Grid
@@ -80,29 +79,29 @@ function People() {
                     }}
                   >
                     {info.name}
-                  </Typography>{" "}
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
-                    Height: {info.height}
+                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                    - Height: {info.height}
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
-                    Mass: {info.mass}
+                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                    - Mass: {info.mass}
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
-                    Hair color: {info.hair_color}
+                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                    - Hair color: {info.hair_color}
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
-                    Skin color: {info.skin_color}
+                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                    - Skin color: {info.skin_color}
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
-                    Eye color: {info.eye_color}
+                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                    - Eye color: {info.eye_color}
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
-                    Birth year: {info.birth_year}
+                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                    - Birth year: {info.birth_year}
                   </Typography>
-                  <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
-                    Gender: {info.gender}
+                  <Typography sx={{ fontSize: 20, fontWeight: 500, marginLeft:3 }}>
+                    - Gender: {info.gender}
                   </Typography>
                 </AccordionDetails>
               </Accordion>
