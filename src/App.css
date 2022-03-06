@@ -77,4 +77,17 @@ body {
 
 .MuiButtonBase-root{
   color: #fddb3a!important;
+  font-size: 16px!important;
+  font-weight: 700!important;
+}
+.Mui-selected {
+  background-color: darkgray!important;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
 }

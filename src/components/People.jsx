@@ -9,8 +9,8 @@ import {
   AccordionDetails,
   AccordionSummary,
   Typography,
+  CircularProgress,
 } from "@mui/material";
-
 
 function People() {
   const [people, setPeople] = useState(null);
@@ -30,15 +30,26 @@ function People() {
       });
   }, [pageNumber]);
 
-  if (!people) return "loading...";
+  if (!people)
+    return (
+      <div className="progress">
+        <CircularProgress sx={{ color: '#fddb3a'}} size={85} />
+      </div>
+    );
 
   return (
     <div className="people">
-      <Typography variant='h4' sx={{ 
-        textAlign: 'center',
-        color: '#fddb3a',
-        marginTop: 4
-      }}>  Star Wars character details: </Typography>
+      <Typography
+        variant="h4"
+        sx={{
+          textAlign: "center",
+          color: "#fddb3a",
+          marginTop: 4,
+        }}
+      >
+        {" "}
+        Star Wars character details:{" "}
+      </Typography>
       <Box sx={{ flexGrow: 1, padding: 5 }}>
         <Grid
           container
